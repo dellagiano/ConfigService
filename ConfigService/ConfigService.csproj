@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Data\Tz\" />
+    <None Remove="Data\Ng\" />
+    <None Remove="Data\Gh\" />
+    <None Remove="Data\Drc\" />
+    <None Remove="Data\Drc\Dev\" />
+    <None Remove="Data\Drc\Prod\" />
+    <None Remove="Data\Gh\Dev\" />
+    <None Remove="Data\Gh\Prod\" />
+    <None Remove="Data\Ng\Dev\" />
+    <None Remove="Data\Ng\Prod\" />
+    <None Remove="Data\Tz\Dev\" />
+    <None Remove="Data\Tz\Prod\" />
+    <None Remove="Service\" />
+    <None Remove="Service\Concrete\" />
+    <None Remove="Service\Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Data\Tz\" />
+    <Folder Include="Data\Ng\" />
+    <Folder Include="Data\Gh\" />
+    <Folder Include="Data\Drc\" />
+    <Folder Include="Data\Drc\Dev\" />
+    <Folder Include="Data\Drc\Prod\" />
+    <Folder Include="Data\Gh\Dev\" />
+    <Folder Include="Data\Gh\Prod\" />
+    <Folder Include="Data\Ng\Dev\" />
+    <Folder Include="Data\Ng\Prod\" />
+    <Folder Include="Data\Tz\Dev\" />
+    <Folder Include="Data\Tz\Prod\" />
+    <Folder Include="Service\" />
+    <Folder Include="Service\Concrete\" />
+    <Folder Include="Service\Interface\" />
+  </ItemGroup>
+</Project>
